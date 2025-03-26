@@ -1,0 +1,5 @@
+build
+cmake-cache
+.lock*
+QKD_*
+temp_*

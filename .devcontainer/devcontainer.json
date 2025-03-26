@@ -1,0 +1,23 @@
+{
+	"name": "Container for RoNaQCI tests generation",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.vscode-pull-request-github",
+				"GitHub.copilot",
+				"ms-azuretools.vscode-docker",
+				"GitHub.copilot-chat",
+				"ms-vscode.makefile-tools",
+				"ms-python.python",
+				"tomoki1207.pdf"
+			]
+		}
+	},
+	"runArgs": [
+		"--rm",
+		"--privileged"
+	]
+}
